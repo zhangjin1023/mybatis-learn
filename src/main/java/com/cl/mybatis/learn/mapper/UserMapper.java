@@ -9,4 +9,6 @@ import com.cl.mybatis.learn.user.User;
 public interface UserMapper {
 
     User selectById(int id);
+
+    int updateUserById(int id);
 }

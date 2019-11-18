@@ -1,10 +1,12 @@
 package com.cl.mybatis.learn.user;
 
+import java.io.Serializable;
+
 /**
  * @Author: chengli
  * @Date: 2018/11/24 12:07
  */
-public class User {
+public class User implements Serializable {
     private int id;
     private String name;
     private int age;
